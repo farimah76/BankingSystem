@@ -1,0 +1,123 @@
+2024-03-16T18:10:33.066+03:30  INFO 24312 --- [project] [main] azki.project.ProjectApplication          : Starting ProjectApplication using Java 17.0.4 with PID 24312 (C:\Users\ASUS\Downloads\project\project\target\classes started by ASUS in C:\Users\ASUS\Downloads\project\project)
+2024-03-16T18:10:33.067+03:30  INFO 24312 --- [project] [main] azki.project.ProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-16T18:10:33.367+03:30  INFO 24312 --- [project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-16T18:10:33.378+03:30  INFO 24312 --- [project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-03-16T18:10:33.615+03:30  INFO 24312 --- [project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-16T18:10:33.626+03:30  INFO 24312 --- [project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-16T18:10:33.626+03:30  INFO 24312 --- [project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-16T18:10:33.658+03:30  INFO 24312 --- [project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-16T18:10:33.659+03:30  INFO 24312 --- [project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 571 ms
+2024-03-16T18:10:33.676+03:30  INFO 24312 --- [project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16T18:10:33.760+03:30  INFO 24312 --- [project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:account user=SA
+2024-03-16T18:10:33.761+03:30  INFO 24312 --- [project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16T18:10:33.766+03:30  INFO 24312 --- [project] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:account'
+2024-03-16T18:10:33.986+03:30  INFO 24312 --- [project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-16T18:10:34.152+03:30  INFO 24312 --- [project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-16T18:10:34.171+03:30  WARN 24312 --- [project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-16T18:10:34.217+03:30 DEBUG 24312 --- [project] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-03-16T18:10:34.264+03:30 DEBUG 24312 --- [project] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-16T18:10:34.281+03:30 DEBUG 24312 --- [project] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-16T18:10:34.295+03:30 DEBUG 24312 --- [project] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-16T18:10:34.349+03:30  WARN 24312 --- [project] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2fa78142-9b7a-4c1f-82a1-0020785d8c32
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-16T18:10:34.405+03:30  INFO 24312 --- [project] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@538f45f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64fc6470, org.springframework.security.web.context.SecurityContextHolderFilter@14c5283, org.springframework.security.web.header.HeaderWriterFilter@13f182b9, org.springframework.web.filter.CorsFilter@5cf3a7f9, org.springframework.security.web.csrf.CsrfFilter@7ebfe01a, org.springframework.security.web.authentication.logout.LogoutFilter@1e6bd367, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f35370b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@215c6ec0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@42db955e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53fc870f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46748b04, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e71a1f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bd2f039, org.springframework.security.web.access.ExceptionTranslationFilter@10e4ee33, org.springframework.security.web.access.intercept.AuthorizationFilter@7845ee8a]
+2024-03-16T18:10:34.441+03:30  INFO 24312 --- [project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-16T18:10:34.447+03:30  INFO 24312 --- [project] [main] azki.project.ProjectApplication          : Started ProjectApplication in 1.595 seconds (process running for 1.925)
+2024-03-16T18:12:58.983+03:30  INFO 24312 --- [project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-16T18:12:58.984+03:30  INFO 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-16T18:12:58.984+03:30 DEBUG 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-16T18:12:58.984+03:30 DEBUG 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-16T18:12:58.984+03:30 DEBUG 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-16T18:12:58.984+03:30 DEBUG 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@69b1e8f8
+2024-03-16T18:12:58.984+03:30 DEBUG 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1926f962
+2024-03-16T18:12:58.984+03:30 DEBUG 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-16T18:12:58.984+03:30  INFO 24312 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-16T18:13:44.945+03:30  INFO 24312 --- [project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-16T18:13:44.946+03:30  INFO 24312 --- [project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-16T18:13:44.947+03:30  INFO 24312 --- [project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-16T18:13:47.814+03:30  INFO 16100 --- [project] [main] azki.project.ProjectApplication          : Starting ProjectApplication using Java 17.0.4 with PID 16100 (C:\Users\ASUS\Downloads\project\project\target\classes started by ASUS in C:\Users\ASUS\Downloads\project\project)
+2024-03-16T18:13:47.815+03:30  INFO 16100 --- [project] [main] azki.project.ProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-16T18:13:48.127+03:30  INFO 16100 --- [project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-16T18:13:48.137+03:30  INFO 16100 --- [project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-03-16T18:13:48.373+03:30  INFO 16100 --- [project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-16T18:13:48.379+03:30  INFO 16100 --- [project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-16T18:13:48.379+03:30  INFO 16100 --- [project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-16T18:13:48.414+03:30  INFO 16100 --- [project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-16T18:13:48.414+03:30  INFO 16100 --- [project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 576 ms
+2024-03-16T18:13:48.435+03:30  INFO 16100 --- [project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16T18:13:48.517+03:30  INFO 16100 --- [project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:account user=SA
+2024-03-16T18:13:48.517+03:30  INFO 16100 --- [project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16T18:13:48.524+03:30  INFO 16100 --- [project] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:account'
+2024-03-16T18:13:48.740+03:30  INFO 16100 --- [project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-16T18:13:48.903+03:30  INFO 16100 --- [project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-16T18:13:48.923+03:30  WARN 16100 --- [project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-16T18:13:48.971+03:30 DEBUG 16100 --- [project] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-03-16T18:13:49.017+03:30 DEBUG 16100 --- [project] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-16T18:13:49.034+03:30 DEBUG 16100 --- [project] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-16T18:13:49.049+03:30 DEBUG 16100 --- [project] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-16T18:13:49.117+03:30  INFO 16100 --- [project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-16T18:13:49.123+03:30  INFO 16100 --- [project] [main] azki.project.ProjectApplication          : Started ProjectApplication in 1.513 seconds (process running for 1.772)
+2024-03-16T18:13:49.125+03:30  INFO 16100 --- [project] [main] azki.project.ProjectApplication          : ProjectApplication is Run
+2024-03-16T18:14:05.952+03:30  INFO 16100 --- [project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-16T18:14:05.952+03:30  INFO 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-16T18:14:05.952+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-16T18:14:05.952+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-16T18:14:05.952+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-16T18:14:05.952+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@470c4229
+2024-03-16T18:14:05.953+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@62054faf
+2024-03-16T18:14:05.953+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-16T18:14:05.953+03:30  INFO 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-16T18:14:05.957+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login?error", parameters={masked}
+2024-03-16T18:14:05.962+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-03-16T18:14:05.982+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-03-16T18:14:05.985+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource login.]
+2024-03-16T18:14:05.986+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-03-16T18:14:05.989+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error?error", parameters={masked}
+2024-03-16T18:14:05.990+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-03-16T18:14:06.002+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-03-16T18:14:06.005+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-03-16T18:14:06.019+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-03-16T18:14:06.020+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-03-16T18:14:06.021+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-03-16T18:14:06.021+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-03-16T18:14:06.021+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-03-16T18:14:06.022+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-03-16T18:14:06.022+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-03-16T18:14:06.033+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json]
+2024-03-16T18:14:06.034+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Mar 16 18:14:06 IRST 2024, status=404, error=Not Found, path=/favicon.ico}]
+2024-03-16T18:14:06.052+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-03-16T18:14:11.142+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-03-16T18:14:11.142+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to azki.project.controller.controller#hello()
+2024-03-16T18:14:11.142+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2024-03-16T18:14:11.142+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["hello"]
+2024-03-16T18:14:11.142+03:30 DEBUG 16100 --- [project] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-16T18:31:29.926+03:30  INFO 16100 --- [project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-16T18:31:29.928+03:30  INFO 16100 --- [project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-16T18:31:29.929+03:30  INFO 16100 --- [project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-16T18:31:33.052+03:30  INFO 21860 --- [project] [main] azki.project.ProjectApplication          : Starting ProjectApplication using Java 17.0.4 with PID 21860 (C:\Users\ASUS\Downloads\project\project\target\classes started by ASUS in C:\Users\ASUS\Downloads\project\project)
+2024-03-16T18:31:33.053+03:30  INFO 21860 --- [project] [main] azki.project.ProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-16T18:31:33.363+03:30  INFO 21860 --- [project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-16T18:31:33.390+03:30  INFO 21860 --- [project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-03-16T18:31:33.632+03:30  INFO 21860 --- [project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-16T18:31:33.637+03:30  INFO 21860 --- [project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-16T18:31:33.637+03:30  INFO 21860 --- [project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-16T18:31:33.664+03:30  INFO 21860 --- [project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-16T18:31:33.665+03:30  INFO 21860 --- [project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 590 ms
+2024-03-16T18:31:33.679+03:30  INFO 21860 --- [project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16T18:31:33.762+03:30  INFO 21860 --- [project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:account user=SA
+2024-03-16T18:31:33.763+03:30  INFO 21860 --- [project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16T18:31:33.768+03:30  INFO 21860 --- [project] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:account'
+2024-03-16T18:31:33.980+03:30  INFO 21860 --- [project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-16T18:31:34.398+03:30  INFO 21860 --- [project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-16T18:31:34.524+03:30  WARN 21860 --- [project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-16T18:31:34.567+03:30 DEBUG 21860 --- [project] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2024-03-16T18:31:34.605+03:30 DEBUG 21860 --- [project] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-16T18:31:34.623+03:30 DEBUG 21860 --- [project] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-16T18:31:34.641+03:30 DEBUG 21860 --- [project] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-16T18:31:34.696+03:30  INFO 21860 --- [project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-16T18:31:34.702+03:30  INFO 21860 --- [project] [main] azki.project.ProjectApplication          : Started ProjectApplication in 1.859 seconds (process running for 2.113)
+2024-03-16T18:31:34.703+03:30  INFO 21860 --- [project] [main] azki.project.ProjectApplication          : ProjectApplication of azki company is Run
