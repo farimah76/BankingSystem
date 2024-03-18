@@ -15,7 +15,7 @@ import java.security.Timestamp;
 @AllArgsConstructor
 @Data
 @Entity
-@Table(name = "transaction")
+@Table(name = "Transaction")
 public class Transaction {
     @Id
     @GeneratedValue

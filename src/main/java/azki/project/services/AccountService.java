@@ -5,12 +5,15 @@ import azki.project.model.Transaction;
 import azki.project.model.TransferBalanceRequest;
 import azki.project.repository.AccountRepository;
 import azki.project.repository.TransactionRepository;
+import azki.project.services.ObserveLogger.TransactionLogger;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.security.Timestamp;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 @Service
@@ -20,6 +23,14 @@ public class AccountService {
     private AccountRepository accountRepository;
     @Autowired
     private TransactionRepository transactionRepository;
+    @Autowired
+    TransactionLogger transactionLogger;
+    private Map<String,Account> accounts;
+
+    public AccountService(TransactionLogger transactionLogger) {
+        accounts=new HashMap<>();
+        this.transactionLogger = transactionLogger;
+    }
 
     public Account createAccount(Account account) {
         return accountRepository.save(account);

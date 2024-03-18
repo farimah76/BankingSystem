@@ -3,6 +3,8 @@ package azki.project.controller;
 import azki.project.ProjectApplication;
 import azki.project.model.Account;
 import azki.project.services.AccountService;
+import azki.project.services.ObserveLogger.TransactionLogger;
+import azki.project.services.ObserveLogger.impl.TransactionLoggerImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +17,8 @@ import java.util.Map;
 @RequestMapping("/api/accounts")
 public class AccountController {
     private static final Logger logger = LoggerFactory.getLogger(ProjectApplication.class);
+    TransactionLogger transactionLogger=new TransactionLoggerImpl("transaction.txt");
+    Account account=new Account(transactionLogger.toString());
     @Autowired
     private AccountService accountService;
 
